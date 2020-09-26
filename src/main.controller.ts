@@ -10,7 +10,7 @@ export class Controller {
   }
 
   public routes() {
-    this.app.route('/test').get(this.pokeService.welcomeMessage);
-    this.app.route('/testNew').get(this.pokeService.welcomeMessageNew);
+    this.app.route('/getReport').get(this.pokeService.getReport);
+    this.app.route('/getFeedBack').get(this.pokeService.getFeedBack);
   }
 }
