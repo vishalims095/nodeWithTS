@@ -1,13 +1,13 @@
 
-import express, { Application } from 'express';
+import * as express from 'express';
 
 //importing our controller
 import { Controller } from './main.controller';
-import bodyParser from 'body-parser';
-import cors from 'cors';
+import * as bodyParser from 'body-parser';
+import * as cors from 'cors';
 
 class App {
-  public app: Application;
+  public app : any = express();
 
   //declaring our controller
   public pokeController: Controller;

@@ -13,11 +13,14 @@ mongoose.connect(uri, (err: any) => {
 export interface IBook extends mongoose.Document {
   title: string;
   author: number;
+  name : string;
 }
 
 export const BookSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  author: { type: String, required: true }
+  author: { type: String, required: true },
+  name: { type: String, required: true }
+
 });
 
 const Book = mongoose.model<IBook>("Book", BookSchema);

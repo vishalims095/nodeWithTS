@@ -7,6 +7,7 @@ export class PokeService {
   // Report
   public getReport(req: Request, res: Response) {
     let {reqType} = req.query
+    console.log("getReport calling")
     report.aggregate(
       [
         {$match : {
