@@ -1,7 +1,7 @@
 {
   "name": "pokeapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic nodejs setup with typescript",
   "main": "./build/server.js",
   "scripts": {
     "start": "tsc && nodemon  ./build/server.js",
@@ -11,7 +11,11 @@
   "files": [
     "src"
   ],
-  "author": "",
+  "author": "vishal sharma",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/vishalims095/nodeWithTS"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
