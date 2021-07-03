@@ -12,7 +12,7 @@
     "src"
   ],
   "author": "vishal sharma",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/vishalims095/nodeWithTS"
   },
